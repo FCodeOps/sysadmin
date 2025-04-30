@@ -1,0 +1,4 @@
+#!/bin/bash
+systemctl enable named
+systemctl start named
+echo "DNS server started."
